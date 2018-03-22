@@ -1,0 +1,9 @@
+- **Android相关下载**
+  - http://www.androiddevtools.cn/
+    - 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等
+- **Error running app: Please select Android SDK**
+  - http://blog.csdn.net/l403040463/article/details/79188341
+- **Intel HAXM is required to run this AVD,VT-x is disabled in BIOS**
+  - https://www.cnblogs.com/waberyang/p/6582738.html
+- **AidlTokenType.import or AidlTokenType.package expected, got'com'**
+  - http://blog.csdn.net/yangshangwei/article/details/50894202

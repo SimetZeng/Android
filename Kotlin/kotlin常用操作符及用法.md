@@ -50,9 +50,9 @@ for (i in 1..4 step 2) print(i) // prints "13"
 for (i in 4 downTo 1 step 2) print(i) // prints "42"
 ```
 
-## ::
-- 得到类的Class对象
-- <span style="color:red">startActivity(Intent(this@KotlinActivity, MainActivity::class.java))</span>
+## :
+- 用于类的继承,变量的定义
+- <span style="color:red">var name: String? = "zhangsan"  </span>
 
 ## @
 - 限定this的类型
@@ -122,14 +122,14 @@ class User {
     }
   ```
 
-## as?
-- 安全转型，当转型不成功时，会返回null
-
 ## is
 - 判断某个实例是否是某个类型
 
+## as?
+- 安全转型，当转型不成功时，会返回null
+
 ## $
 - 字符串可以包含模板表达式，及一小段代码，会求值并把结果包含到字符串中
-- <span style="color:red">val value:Int=5;</span>
+- <span style="color:red">val value:Int=5</span>
 - <span style="color:red">val str:String="the value is $value"</span>
 - <span style="color:red">var userInfo = "name:${user.name},  age:$age"</span>
